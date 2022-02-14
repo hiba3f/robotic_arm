@@ -1,7 +1,7 @@
 # robotic_arm
 Matlab GUI for configurable robot arm simulation (from 1ddl to 6ddl), forward and inverse kinematics.
 
-Realized using Matlab 2018b, and match Matlab 2021a.
+Realized using Matlab 2018b, and match Matlab 2021a. Dependencies is "Rbotics-toolbox-matlab" : https://github.com/petercorke/robotics-toolbox-matlab
 
 All what you have to do:
 - Download files (GUI_ARM.m and GUI_ARM.fig)
