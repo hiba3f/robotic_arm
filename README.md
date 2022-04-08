@@ -15,5 +15,5 @@ To edit it :
 
 Notices : 
 - In the inverse kinematics, the choice of the object point is tricky. Not all points are achievable, it should be realizable in practice to get a result in the simulation unless the function wouldn't converge. It require also to be precise, use the exact value not an appoximation.
-- Also in inverse kinematics, the mask choise (vector _1_*6 of 1 and 0) should be manual in the code itself, because the DH parameters do not indicate the ddl variables.
+- Also in inverse kinematics, the mask choise (binary vector [1;6]) should be manual in the code itself, because the DH parameters do not indicate the ddl variables.
 - For the plot3d it's not possible to be available for all possible configurations, you have to fix a configuration and add the stl file of the arm.
